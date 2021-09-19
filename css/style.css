@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+img{
+
+}
+.main-container-15 {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: repeat(1, 100fr) / repeat(2, 50fr);
+    grid-template-areas: "login-image login-inputs";
+}
+
+.login-image {
+    grid-area: login-image;
+    background: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 10rem auto;
+}
+
+.login-inputs {
+    grid-area: login-inputs;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5rem;
+}
+
+.welcome-title {
+    font-size: 2rem;
+    color: #616161;
+}
+
+.logo-container {
+    width: 12rem;
+    height: 12rem;
+
+}
