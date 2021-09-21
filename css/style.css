@@ -40,3 +40,19 @@ img{
     height: 12rem;
 
 }
+@media screen and (max-width: 1288px) {
+    .logo-container{
+        margin-right: 50rem;
+    }
+
+}
+.sign{
+    text-align: center;
+}
+
+@media screen and (max-width: 400px){
+    .sign{
+        display: block;
+    }
+
+}
